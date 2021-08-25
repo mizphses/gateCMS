@@ -1,0 +1,13 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&family=Klee+One:wght@400;600&family=Lexend+Deca:wght@100;400;700&family=Noto+Sans+JP:wght@100;400;700&family=Open+Sans:wght@300;400;700&family=Shippori+Mincho:wght@400;700&family=Material+Icons&display=swap');
+@import "./typography.css";
+@import "./color.css";
+@import "./box.css";
+@import "./navbar.css";
+body {
+  color: #444;
+}
+.container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

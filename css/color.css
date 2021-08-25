@@ -1,0 +1,24 @@
+.text-main {
+  color: #444;
+}
+.text-black {
+  color: black;
+}
+.text-white {
+  color: white;
+}
+.text-red {
+  color: rgb(255, 45, 45);
+}
+.text-yellow {
+  color: rgb(252, 255, 57);
+}
+.text-blue {
+  color: rgb(23, 141, 238);
+}
+.text-green {
+  color: rgb(40, 212, 126)
+}
+.text-gray {
+  color: gray;
+}

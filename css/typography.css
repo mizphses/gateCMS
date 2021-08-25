@@ -1,0 +1,23 @@
+body, .sans-serif{
+  font-family: 'Open Sans', 'Noto Sans JP', sans-serif;
+}
+.serif{
+font-family: 'Shippori Mincho', serif;
+}
+.handwrite{
+  font-family: 'Klee One', cursive;
+}
+.readable{
+  font-family: 'Lexend Deca', 'Noto Sans JP', sans-serif;
+}
+.serif-decolated{
+font-family: 'Kaisei Opti', serif;
+}
+[class^="material-icons"] {
+  font-family: "Material Icons", cursive;
+  font-size: 1.5em;
+}
+
+.text-2em {
+  font-size: 2em;
+}

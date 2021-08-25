@@ -1,0 +1,9 @@
+.notify-box {
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0.5em;
+}
+.center{
+  text-align: center
+} 

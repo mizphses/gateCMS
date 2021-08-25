@@ -1,0 +1,68 @@
+div.nav-topcontent {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolang: touch;
+  border-bottom: solid 1px rgb(200, 200, 200);
+}
+@media (min-width: 901px) {
+  div.nav-topcontent{  
+    justify-content: flex-end;  
+  }
+}
+a.topcontentinside {
+  height: 40px;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-left: solid 1px rgb(200, 200, 200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.nav-main{
+  height: 100px;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolang: touch;
+  border-bottom: solid 1px rgb(200, 200, 200);
+}
+h1.logo{
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: 2em;
+}
+img.logoimg{
+  max-width: 40vw;
+  max-height: 90px;
+}
+div.nav-main-content {
+  display: flex;
+  width: 60vw;
+  justify-content: flex-end;
+}
+a.nav-main-content-inside {
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  align-items : center;
+  justify-content: center;
+}
+.logo-image {
+  max-height: 80px;
+}
+a[class^="nav"]:hover, a.topcontentinside:hover {
+  animation: fadeIn 1s infinite;
+  animation-direction: alternate;
+}
+@keyframes fadeIn {
+  0%{
+    background: white;
+  }
+  100%{
+    background: rgb(253, 255, 133);
+  }
+}
